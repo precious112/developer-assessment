@@ -1,0 +1,6 @@
+Django==3.2
+django-cors-headers==3.10.0
+graphene==2.1.8
+graphene-django>=2.0
+Pillow==9.1.1
+sqlparse

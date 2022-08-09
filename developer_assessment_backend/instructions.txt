@@ -1,0 +1,9 @@
+To run this backend you have to run the necessary docker command: "docker-compose run django"
+this should install all required packages in requirements.txt file and set up django.
+then you have to run migrations,you don't have to makemigrations the necessary migrations file are prsent.
+The migration file to save all required data to the db is also available in products/migrations/0002_assessment_data.py .
+
+Then you run: "docker exec -it django-assessment sh" to access the django container and the run a shell
+ and then run: python manage.py migrate
+
+ Then run: "docker-compose up" to get the whole backend application up and running. 
