@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ApolloClient,ApolloProvider,InMemoryCache } from '@apollo/client';
-//pass
 
 const client=new ApolloClient({
   uri: "http://127.0.0.1:8000/products",

@@ -2,8 +2,6 @@ import React,{useState,useContext} from 'react';
 import { ProductContext } from '../../ContextApis/ProductContext';
 import { AlterSection, BackButtonDiv, CartItem, EditCartItemSection, ImageAndNameSection, ImageItem, IncAndDecItem, ItemSection, NameDiv, NameItem, RemoveItem, Wrapper } from './CartComponent.styles';
 
-//pass
-
 const Cart=()=>{
     const {setAddToCart,cart,setCart}=useContext(ProductContext);
     

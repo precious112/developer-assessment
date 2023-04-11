@@ -1,7 +1,6 @@
 import React,{useState,useContext} from 'react';
 import { AddToCart, BuySection, ProductImage, ProductInfo, ProductName, ProductPrice, Wrapper } from './ProductDetail.styles';
 import { ProductContext } from '../../ContextApis/ProductContext';
-//pass
 
 const ProductDetail=(props)=>{
     const {setAddToCart,cart,setCart}=useContext(ProductContext);

@@ -172,6 +172,5 @@ margin-right:3px;
  font-size:10px;
  padding:10px 6px;
  display:inline;  
- pass:pass; 
 }
 `;

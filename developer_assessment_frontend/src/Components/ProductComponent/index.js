@@ -5,7 +5,6 @@ import BounceLoader from 'react-spinners/BounceLoader';
 import ProductDetail from "../ProductDetail";
 import { ProductContext } from "../../ContextApis/ProductContext";
 import Cart from "../CartComponent";
-//pass
 
 
 const Product=()=>{
