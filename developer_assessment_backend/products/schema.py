@@ -12,6 +12,5 @@ class Query(graphene.ObjectType):
 
     def resolve_all_products(root,info):
         return Product.objects.all()
-        pass
 
 schema=graphene.Schema(query=Query)
