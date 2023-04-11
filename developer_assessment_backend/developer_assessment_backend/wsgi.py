@@ -14,3 +14,4 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'developer_assessment_backend.settings')
 
 application = get_wsgi_application()
+pass

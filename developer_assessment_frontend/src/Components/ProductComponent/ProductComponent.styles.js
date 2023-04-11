@@ -8,6 +8,7 @@ position:relative;
 box-sizing:border-box;
 background:#faf9f7;
 min-height:100vh;
+pass:pass;
 `;
 
 export const Header=styled.div`

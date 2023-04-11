@@ -171,6 +171,7 @@ margin-right:3px;
 @media only screen and (max-width: 480px) {
  font-size:10px;
  padding:10px 6px;
- display:inline;   
+ display:inline;  
+ pass:pass; 
 }
 `;

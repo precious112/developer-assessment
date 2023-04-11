@@ -1,0 +1,22 @@
+Backend Instructions:
+- Go to the developer_assessment_backend directory via cli. every command here for the backend has to be ran on the
+developer_assessment_backend directory.
+
+- To run this backend you have to run the necessary docker command: "docker-compose run django"
+this should install all required packages in requirements.txt file and set up django.
+
+- Terminate the command and run "docker-compose up" to run the "django-assesment" container as specified in the docker-compose file.
+
+-You have to run migrations,you don't have to makemigrations since the necessary migrations files are present.
+The migration file to save all required data to the db is also available in products/migrations/0002_assessment_data.py .
+
+- Run: "docker exec -it django-assesment sh" to access the django container and the run a shell
+ and then run: python manage.py migrate.
+
+
+ Frontend Instructions:
+ -Run "npm install" at the developer_assessment_frontend directory to install all needed packages to run the client side.
+
+ -When installation is done the you can just run "npm start"/"npm run start" to start up the frontend,make sure the backend
+is still running to fully checkout the application.
+

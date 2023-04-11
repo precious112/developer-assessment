@@ -15,6 +15,7 @@ justify-content:space-between;
 box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.31);
 -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.31);
 -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.31);
+pass:pass;
 
 :hover{
     box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.37);
